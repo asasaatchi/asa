@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fae1dd;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  max-width: 500px;
+  margin: 20px;
+}
+
+.container .tenor-gif-embed {
+  max-width: 200px;
+}
+
+.container .btn {
+  display: flex;
+  gap: 25px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #fff;
+
+  padding: 10px 25px;
+  border-radius: 8px;
+  box-shadow: 0.5rem 1rem 3rem hsl(0, 0%, 0%, 0.3);
+}
+
+.container .tenor-gif-embed {
+  max-width: 100%; /* Allow the GIF to expand fully */
+  height: auto;    /* Maintain aspect ratio */
+  width: 80%;      /* Adjust width to make the GIF larger */
+  border-radius: 30px; 
+}
+.container .tenor-gif-embed iframe {
+  border-radius: 15px; /* Round the corners of the iframe */
+  overflow: hidden; /* Ensures the content inside stays within the rounded corners */
+}
+
+.container .tenor-gif-embed img {
+  width: 100%;
+  height: auto;
+  border-radius: 30px; /* Apply border-radius to the image itself */
+}
+.text4 {
+
+  font-family: "Kirang Haerang", system-ui;
+color: #fff;}
+.text5{
+  color: #fff;
+}
+
+  .yesbtn{
+    color: aqua;
+    background-color: rgb(68, 255, 165);
+  }
+
+  .nobtn{
+
+    background-color: rgb(255, 83, 83);
+  }
+
+  .background-box{
+
+    
+    position: absolute; /* Position it relative to the body */
+    top: 30%; /* Adjust as needed */
+    left: 30%; /* Adjust as needed */
+    right: 30%; /* Adjust as needed */
+    bottom: 30%; /* Adjust as needed */
+    background-color: #ffb3a8; /* Set background color */
+    border-radius: 20px; /* Rounded corners for the box */
+    z-index: -1; /* Ensure the box stays behind content */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Optional shadow */
+  }
